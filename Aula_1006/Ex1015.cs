@@ -13,6 +13,6 @@ class Program {
     double d = Math.Sqrt (
       (x2-x1) * (x2-x1) + 
       Math.Pow(y2-y1, 2) );
-    Console.WriteLine($"{d:f4}");
+    Console.WriteLine($"{d:0.0000}");
   }
 }
