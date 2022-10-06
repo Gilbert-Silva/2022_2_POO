@@ -1,0 +1,11 @@
+import math
+l1 = input()
+l2 = input()
+p1 = l1.split()
+p2 = l2.split()
+x1 = float(p1[0])
+y1 = float(p1[1])
+x2 = float(p2[0])
+y2 = float(p2[1])
+d = math.sqrt((x2-x1)*(x2-x1) + (y2-y1)**2)
+print(f"{d:.4f}")
