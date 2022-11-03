@@ -1,6 +1,6 @@
 #run = "mcs './Aula_1031/Lista02Ex03.cs' -out:Main.exe ; mono Main.exe"
-#run = "python3 './Aula_1031/Lista02Ex03.py'"
-run = "javac './Aula_1031/Lista02Ex03.java' ; java './Aula_1031/Lista02Ex03.class'"
+run = "python3 './Aula_1103/recursao.py'"
+#run = "javac -d ./ './Aula_1031/Lista02Ex03.java' ; java './Lista02Ex03.class'"
 
 [nix]
 channel = "stable-21_11"

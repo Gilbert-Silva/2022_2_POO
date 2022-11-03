@@ -15,8 +15,10 @@ class Viagem:
   def __str__(self):
     return f"Distância = {self.__distancia} km, Tempo = {self.__tempo} h"
 
-v1 = Viagem(350, 4)
-print(f"{v1.velocidade_media()} km/h")
-print(v1)
-v1.__distancia = -100
-print(v1.__distancia)
+
+if __name__ == "__main__":
+  v1 = Viagem(350, 4)
+  print(f"{v1.velocidade_media()} km/h")
+  print(v1)
+  v1.__distancia = -100
+  print(v1.__distancia)
