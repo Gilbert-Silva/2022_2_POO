@@ -1,5 +1,5 @@
-#run = "mcs './Aula_1031/Lista02Ex03.cs' -out:Main.exe ; mono Main.exe"
-run = "python3 './Aula_1103/recursao.py'"
+run = "mcs './Aula_1107/Lista03Ex04.cs' -out:Main.exe ; mono Main.exe"
+#run = "python3 './Aula_1103/lista.py'"
 #run = "javac -d ./ './Aula_1031/Lista02Ex03.java' ; java './Lista02Ex03.class'"
 
 [nix]

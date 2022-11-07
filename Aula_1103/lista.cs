@@ -16,6 +16,11 @@ class Lista {
   }
   public void Listar() {
     // Imprimir todos os nós da lista
+    No aux = raiz;
+    while (aux != null) {
+      Console.WriteLine(aux.GetValor());
+      aux = aux.GetProx();
+    }
   }
 }
 
@@ -29,13 +34,22 @@ class No {
   public void SetProx(No no) {
     this.prox = no;
   }
+  public No GetProx() {
+    return prox;
+  }
+  public string GetValor() {
+    return valor;
+  }  
 }
 
 class Program {
   public static void Main() {
-    Lista x = new Lista();
-    x.Inserir("Python");
+    Lista x = new Lista();  // x = []
+    x.Inserir("Python");    // x.append("Python")
     x.Inserir("C#");
-    
+    x.Inserir("Java");
+    x.Inserir("JavaScript");
+    x.Inserir("Assembly");
+    x.Listar();
   }
 }
