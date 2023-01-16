@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAluno xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Aluno>
+    <Id>1</Id>
+    <Nome>Felipe</Nome>
+    <Matricula>4444</Matricula>
+    <Nascimento>2020-02-02T00:00:00</Nascimento>
+    <IdTurma>0</IdTurma>
+  </Aluno>
+  <Aluno>
+    <Id>2</Id>
+    <Nome>Radmila</Nome>
+    <Matricula>4321</Matricula>
+    <Nascimento>2010-01-01T00:00:00</Nascimento>
+    <IdTurma>0</IdTurma>
+  </Aluno>
+  <Aluno>
+    <Id>3</Id>
+    <Nome>Gilbert</Nome>
+    <Matricula>8888</Matricula>
+    <Nascimento>2000-01-01T00:00:00</Nascimento>
+    <IdTurma>0</IdTurma>
+  </Aluno>
+</ArrayOfAluno>
