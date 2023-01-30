@@ -1,6 +1,5 @@
-#run = "mcs './Aula_1228/main.cs' './Aula_1228/Aluno.cs' './Aula_1228/NAluno.cs' './Aula_1228/Turma.cs' -out:Main.exe ; mono Main.exe"
-run = "python3 './Aula_230116/exemplo.py'"
-#run = "javac -d ./ './Aula_1031/Lista02Ex03.java' ; java './Lista02Ex03.class'"
+run = "mcs './Aula_230130/exemplo.cs' -out:Main.exe ; mono Main.exe"
+#run = "python3 './Aula_230116/exemplo.py'"
 
 [nix]
 channel = "stable-21_11"
