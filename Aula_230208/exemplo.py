@@ -16,6 +16,25 @@ class Musica:
     def order_nome(musica):
         return musica.nome
 
+class PlayList:
+  pass
+
+class NPlayList:
+  pass
+
+class PlayListItem:
+  pass
+
+class NPlayListItem:
+  items = []
+  id = 0
+  
+  @classmethod
+  def inserir_musica_playlist(cls, musica, playlist):
+      cls.id += 1 #percorrer items e pegar o maior valor
+      item = PlayListItem(cls.id, musica.id, playlist.id)
+      items.append(item)
+
 class NMusica:
     musicas = []
     
